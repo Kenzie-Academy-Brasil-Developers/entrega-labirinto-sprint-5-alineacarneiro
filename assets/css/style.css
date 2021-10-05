@@ -1,0 +1,77 @@
+#body {
+    /* background-color: rgb(1, 31, 8);  */
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 20px;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color:#095c39;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.parede {
+	width: 20px;
+	height: 100%;
+    background-image: url("../img/gramado.jpg")
+}
+
+.caminho {
+	background-color: rgba(0, 0, 0, 0.993);
+	width: 20px;
+	height: 100%;
+}
+
+.inicio {
+	background-color: rgba(0, 0, 0, 0.993);
+	width: 20px;
+	height: 100%;
+}
+
+.fim {
+	background-color: rgba(0, 0, 0, 0.993);
+	width: 20px;
+	height: 100%;
+}
+
+#labyrinth {
+	width: 420px;
+	height: 300px;
+	margin: 0 auto;
+    margin-top: 80px;
+	position: relative;
+}
+
+#start{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 60%;
+}
+
+#finish{
+	width: 20px;
+	height: 100%;
+}
+
